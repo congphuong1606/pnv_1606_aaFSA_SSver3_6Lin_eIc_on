@@ -1,0 +1,39 @@
+﻿/*  
+ * Folder General, include:
+ * File: _color.scss (color): Use all color main for project.
+ * File: _mixin.scss (mixin): Use shared functions for selectors.
+ * File: _class.scss (class): The all class used for the project is here.
+ */
+
+@import "general/color";
+@import "general/mixin";
+@import "general/class";
+
+/*  
+ * Folder Default, include:
+ * File: _header.scss (header): All styles for the section HEADER is in this file.
+ * File: _footer.scss (footer): All styles for the section FOOTER is in this file.
+ */
+
+@import "default/header";
+@import "default/footer";
+
+/*  
+ * Folder Pages, include all styles for Project.
+ */
+
+@import "pages/index";
+@import "pages/contact";
+
+/*
+ * Folder Media Screen, include:
+ * File: _desktop.scss (desktop): All styles for laptop, PC, TV in this file.
+ * File: _tablet.scss (tablet): All styles for tablet in this file.
+ * File: _phone.scss (phone): All styles for phone in this file.
+ * File: _device.scss (device): All styles for devices mixed together are in this file.
+ */
+
+@import "media/desktop";
+@import "media/tablet";
+@import "media/phone";
+@import "media/device";

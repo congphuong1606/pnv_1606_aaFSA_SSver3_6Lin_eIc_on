@@ -1,0 +1,14 @@
+﻿/* ================= Title Main ================= */
+
+@mixin title_main($font-size, $transform, $font-weight, $color) {
+    font-size: $font-size;
+    text-transform: $transform;
+    font-weight: $font-weight;
+    color: $color;
+}
+
+@mixin demo_mixin($font-size, $background-c, $color) {
+    font-size: $font-size;
+    background-color: $background-c;
+    color: $color;
+}

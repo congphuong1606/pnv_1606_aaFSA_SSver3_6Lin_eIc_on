@@ -1,0 +1,26 @@
+﻿/* ================= Display for Desktop (Laptop, PC, TV) ================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.space_section{
+		padding:70px 0;
+	}
+	
+	h1{
+		font-size:40px;
+	}
+	
+	h2{
+		font-size:30px;
+	}
+	
+	h3, h4{
+		font-size:20px;
+	}
+	
+	h5{
+		font-size:17px;
+	}
+	
+	h6, p{
+		font-size:14px;
+	}
+}

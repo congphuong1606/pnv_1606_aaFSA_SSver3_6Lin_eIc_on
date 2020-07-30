@@ -1,0 +1,22 @@
+﻿/* ================= Display for Mobile (from 0px to 767.98px) ================= */
+@media (max-width: 767.98px) {
+	.space_section{
+		padding:50px 0;
+	}
+	
+	h1, h2{
+		font-size:32px;
+	}
+	
+	h3, h4{
+		font-size:21px;
+	}
+	
+	h5{
+		font-size:15px;
+	}
+	
+	h6, p{
+		font-size:14px;
+	}
+}
