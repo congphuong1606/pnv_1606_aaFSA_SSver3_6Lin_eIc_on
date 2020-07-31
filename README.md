@@ -3,7 +3,9 @@ Sassを勉強するためにTimebit会社で開発していました。
 
 #ステップス
 一目：せってい：Install　sass => search google (mac: sudo gem install ..)
-に目：プロジェクトの中には：sass --watch input.scss:output.css
+に目：プロジェクトの中には：sass --watch input.scss:output.css. 
+
+#.  sass --watch scss/layout.scss:css/layout.min.css --style compressed --scss
 
 ＃スタート
 色　（color)
